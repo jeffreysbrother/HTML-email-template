@@ -22,7 +22,7 @@
 
   /*GENERAL STYLES*/
   * {font-family: Arial, sans-serif; line-height: 1.3em;}
-  #header-content, #footer-black {background-color:#5196d3;}
+  #header-content, #footer {background-color:#5196d3;}
   .header-text, .footer-logo, #social-icons{color:#fff; }
   .padding-class {padding: .9em;}
   #inner-content, #contain {border-left: 1px solid #000; border-right: 1px solid #000; }
@@ -37,10 +37,9 @@
   #header-content {height: 5.2em;}
   .header-text {font-weight:lighter;}
   .logo {padding: .3em 1.2em; border: 1px solid #fff; width: 3em; margin-left:.5em;}
-  #header-height img {width: 240px; margin-left: 1em;}
+  #header-img img {width: 240px; margin-left: 1em;}
 
   /*button styles*/
-  #CTA {padding-top: 15px; padding-bottom: 15px;}
   .CTA-button {background-color:#5196d3; height: 2.2em; margin: 1em 0; }
   .CTA-button a {color: #fff; text-decoration: none; padding: 0 3.6em;}  /* set width of button with padding */
 
@@ -74,7 +73,7 @@
   p {font-size: 1em;}
   .blurb p {font-size: .75em;}
   #footer-info p {font-size: .6em;}
-  .CTA-content a {font-size: 1.1em;}
+  .CTA-button a {font-size: 1.1em;}
 
   .header-rem {font-size: 1.3rem;}
   .inner-rem {font-size: 1.4rem;}
@@ -90,15 +89,15 @@
       <tr>
         <td align="center" valign="top" id="bodyCell">
           <!-- container table for email: all content will be nested within this table -->
-          <table border="0" cellpadding="0" cellspacing="0" width="100%" id="emailContainer">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
 
             <!--~~~~~~~~~~~~~~~~~~ 1. HEADER SECTION ~~~~~~~~~~~~~~~~~~-->
             <tr>
-              <td align="center" valign="top" id="header" class="header-rem">
+              <td align="center" valign="top" class="header-rem">
 
                 <table border="0" cellpadding="0" cellspacing="0" width="600" id="header-content">
                   <tr>
-                    <td align="left" valign="middle" id="header-height">
+                    <td align="left" valign="middle" id="header-img">
                       <a href="#"><img src="http://placehold.it/240x56" /></a>
                     </td>
                     <td align="center" valign="middle">
@@ -112,7 +111,7 @@
 
             <!--~~~~~~~~~~~~~~~~~~ 2. "CONTENT" SECTION ~~~~~~~~~~~~~~~~~~-->
             <tr>
-              <td align="center" valign="top" id="content">
+              <td align="center" valign="top">
                 <table border="0" cellpadding="0" cellspacing="0" width="600" id="inner-content" class="inner-rem">
                   <tr>
                     <td align="left" valign="top" class="padding-class text1">
@@ -129,10 +128,10 @@
                   </tr>
 
                   <tr>
-                    <td align="center" valign="top" id="CTA">
+                    <td align="center" valign="top">
                       <table border="0" cellpadding="0" cellspacing="0" class="CTA-button">
                         <tr>
-                          <td align="center" valign="middle" class="CTA-content">
+                          <td align="center" valign="middle">
                             <a href="#" target="_blank">Bloop</a>
                           </td>
                         </tr>
@@ -245,11 +244,11 @@
 
             <!--~~~~~~~~~~~~~~~~~~ 4. FOOTER SECTION ~~~~~~~~~~~~~~~~~~-->
             <tr>
-              <td align="center" valign="top" id="footer" class="footer-rem">
-                <table border="0" cellpadding="0" cellspacing="0" width="600" id="footer-content">
+              <td align="center" valign="top" class="footer-rem">
+                <table border="0" cellpadding="0" cellspacing="0" width="600">
                   <tr>
-                    <td align="center" valign="middle" id="foot">
-                      <table border="0" cellpadding="0" cellspacing="0" width="100%" id="footer-black">
+                    <td align="center" valign="middle">
+                      <table border="0" cellpadding="0" cellspacing="0" width="100%" id="footer">
 
                             <tr>
                               <td align="center" valign="middle" id="footer-logo-container">

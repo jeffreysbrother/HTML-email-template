@@ -8,7 +8,7 @@
 7. Thoroughly-tested on desktop (Gmail and Thunderbird in Chrome, Edge, FireFox, Internet Explorer 11) and mobile (Gmail app, iOS Mail app)
 8. Includes an HTML snippet that fixes Gmail's attempt to automatically resize fonts. A discussion of this can be found [here](http://freshinbox.com/blog/gmail-on-ios-increases-font-size-on-some-emails/). The code is included just before the closing body tag.
 9. phone number triggers the phone application, for increased usability
-10. added `display:table-cell;` to all images nested within links, in order to make sure that the link doesn't extend beyond the image. 
+10. added `display:table-cell;` to all images nested within links, in order to make sure that the link doesn't extend beyond the image. This has the effect of making the layout more balanced since links extending beyond the image borders was similar to adding padding to one side of the image.
 
 
 

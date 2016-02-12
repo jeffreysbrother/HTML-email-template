@@ -11,14 +11,6 @@
 
 
 
-##DIFFERENCES BETWEEN BUILD AND PSD:##
-1. exact design ratios not possible:
-  * Gmail does not support media queries, so compromises to layout had to be made
-  * The original PSDs do not adhere to the convention of not exceeding a width of [approx.] 600px
-2. button size increased in order to increase usability in small viewports
-
-
-
 ##POSSIBLE FUTURE ISSUES:##
 1. The email template will break in Gmail if the HTML dash entity is used in the markup.
 2. I initially sized the social icons in the footer with a height and width property (in ems), but ultimately eliminated the height property and switched to pixels...this resolved an inconsistency in how the iOS Mail app was displaying these images.
@@ -29,5 +21,4 @@
 
 ##REQUIRED ACTIONS:##
 1. put all CSS inline
-2. update placeholders with content, e.g. [AP Time] and [Customer Name]
-3. test again after updating any content, images, or links
+2. test again after updating any content, images, or links

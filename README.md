@@ -1,4 +1,5 @@
-##FEATURES:##
+## FEATURES:
+
 1. table-based, modular HTML email optimized for Gmail App and iOS Apple Mail App
 2. no media queries; width of 600px
 3. use of rems and ems so that each module can be resized independently
@@ -12,7 +13,8 @@
 
 
 
-##POSSIBLE FUTURE ISSUES:##
+## POSSIBLE FUTURE ISSUES:
+
 1. The email template will break in Gmail if the HTML dash entity is used in the markup.
 2. I initially sized the social icons in the footer with a height and width property (in ems), but ultimately eliminated the height property and switched to pixels...this resolved an inconsistency in how the iOS Mail app was displaying these images.
 3. The Gmail auto resize feature (a.k.a. "nightmare") was initially resolved by implementing the HTML snippet mentioned above. However, further testing shows that the results are inconsistent. The initial test with Sendmetric will sometimes show the snippet to be ineffective...but a second test (sent immediately after the first) will display properly, even when no code has been updated. I'm still not sure what's causing this issue.
@@ -20,6 +22,7 @@
 
 
 
-##REQUIRED ACTIONS:##
+## REQUIRED ACTIONS:
+
 1. put all CSS inline
 2. test again after updating any content, images, or links
